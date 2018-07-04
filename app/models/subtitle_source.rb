@@ -1,0 +1,2 @@
+class SubtitleSource < ApplicationRecord
+end
