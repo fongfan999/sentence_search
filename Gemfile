@@ -15,6 +15,7 @@ gem 'turbolinks', '~> 5'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails'
 end
 
 group :development do
@@ -28,3 +29,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'rails_admin', '~> 1.3'
+gem 'webvtt-ruby', '~> 0.3.2', require: false
